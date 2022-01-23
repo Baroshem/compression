@@ -45,7 +45,7 @@ Firstly, you need to add `@nuxt-modules/compression` to your Nuxt config.
 }
 ```
 
-And that's it! Now, the gzip compression will compress your static assets. For more configuration options (like brotli compression, filter assets, etc) please, visit the official docs.
+And that's it! Now, the brotli compression will compress your assets. For more configuration options (like brotli compression, filter assets, etc) please, visit the official docs.
 
 ## Development
 
