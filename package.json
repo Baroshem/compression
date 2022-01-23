@@ -1,10 +1,10 @@
 {
-  "name": "@nuxt-modules/lazy-load",
+  "name": "@nuxt-modules/compression",
   "version": "0.1.0",
-  "description": "Lazy load module for Nuxt 3",
+  "description": "Compression module for Nuxt 3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nuxt-modules/lazy-load.git"
+    "url": "git+https://github.com/nuxt-modules/compression.git"
   },
   "author": "Jakub Andrzejewski",
   "contributors": [
@@ -37,27 +37,24 @@
     "nuxt3": "3.0.0-27324955.23397e6",
     "standard-version": "^9.3.2",
     "typescript": "^4.5.4",
-    "unbuild": "0.6.3"
+    "unbuild": "0.6.3",
+    "vite-plugin-compression": "^0.4.0"
   },
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/nuxt-modules/lazy-load/issues"
+    "url": "https://github.com/nuxt-modules/compression/issues"
   },
-  "homepage": "https://github.com/nuxt-modules/lazy-load#readme",
+  "homepage": "https://github.com/nuxt-modules/compression#readme",
   "directories": {
     "doc": "docs",
     "example": "example"
   },
   "keywords": [
-    "lazy-load",
-    "image",
+    "compression",
     "performance",
     "nuxt",
     "module"
-  ],
-  "dependencies": {
-    "lozad": "^1.16.0"
-  }
+  ]
 }
