@@ -38,7 +38,9 @@ Firstly, you need to add `@nuxt-modules/compression` to your Nuxt config.
 
 {
   buildModules: [
-    ['@nuxt-modules/compression']
+    ['@nuxt-modules/compression', {
+      algorithm: 'brotliCompress'
+    }]
   ]
 }
 ```
