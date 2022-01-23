@@ -56,17 +56,17 @@ And that's it! Now, the gzip compression will compress your static assets. For m
 [MIT License](./LICENSE)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxt-modules/lazy-load/latest.svg
-[npm-version-href]: https://npmjs.com/package/@nuxt-modules/lazy-load
+[npm-version-src]: https://img.shields.io/npm/v/@nuxt-modules/compression/latest.svg
+[npm-version-href]: https://npmjs.com/package/@nuxt-modules/compression
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxt-modules/lazy-load.svg
-[npm-downloads-href]: https://npmjs.com/package/@nuxt-modules/lazy-load
+[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxt-modules/compression.svg
+[npm-downloads-href]: https://npmjs.com/package/@nuxt-modules/compression
 
-[github-actions-ci-src]: https://github.com/nuxt-modules/lazy-load/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/nuxt-modules/lazy-load/actions?query=workflow%3Aci
+[github-actions-ci-src]: https://github.com/nuxt-modules/compression/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/nuxt-modules/compression/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-modules/lazy-load.svg
-[codecov-href]: https://codecov.io/gh/nuxt-modules/lazy-load
+[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-modules/compression.svg
+[codecov-href]: https://codecov.io/gh/nuxt-modules/compression
 
-[license-src]: https://img.shields.io/npm/l/@nuxt-modules/lazy-load.svg
-[license-href]: https://npmjs.com/package/@nuxt-modules/lazy-load
+[license-src]: https://img.shields.io/npm/l/@nuxt-modules/compression.svg
+[license-href]: https://npmjs.com/package/@nuxt-modules/compression

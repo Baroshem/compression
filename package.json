@@ -1,6 +1,6 @@
 {
   "name": "@nuxt-modules/compression",
-  "version": "0.1.0",
+  "version": "0.1.0-rc.1",
   "description": "Compression module for Nuxt 3",
   "repository": {
     "type": "git",
