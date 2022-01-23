@@ -1,6 +1,6 @@
-[![@nuxt-modules/lazy-load](https://lazy-load-nm.netlify.app/preview.png)](https://lazy-load-nm.netlify.app)
+[![@nuxt-modules/compression](https://compression-nm.netlify.app/preview.png)](https://compression-nm.netlify.app)
 
-# @nuxt-modules/compression [WIP]
+# @nuxt-modules/compression
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -8,59 +8,42 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> Lazy Loading Images module for [Nuxt 3](https://v3.nuxtjs.org)
+> Assets Compression module for [Nuxt 3](https://v3.nuxtjs.org)
 
-- [✨ &nbsp;Release Notes](https://github.com/nuxt-modules/lazy-load/releases)
-- [📖 &nbsp;Read the documentation](https://lazy-load-nc.netlify.app)
+- [✨ &nbsp;Release Notes](https://github.com/nuxt-modules/compression/releases)
+- [📖 &nbsp;Read the documentation](https://compression-nm.netlify.app)
 
 ## Features
 
 - Nuxt 3 ready
-- Easy Lazy Loading Images
-- Advanced configuration using Lozad.js
-- Handy composable useLazyLoad
+- Assets Compression using [vite-plugin-compression](https://github.com/vbenjs/vite-plugin-compression)
+- Advanced configuration options
 - TypeScript support
 
-[📖 &nbsp;Read the documentation](https://lazy-load-nc.netlify.app)
+[📖 &nbsp;Read the documentation](https://compression-nm.netlify.app)
 
 ## Setup
 
 ```sh
-yarn add @nuxt-modules/lazy-load # yarn
-npm i @nuxt-modules/lazy-load # npm
+yarn add @nuxt-modules/compression # yarn
+npm i @nuxt-modules/compression # npm
 ```
 
 ## Basic usage
 
-Firstly, you need to add `@nuxt-modules/lazy-load` to your Nuxt config.
+Firstly, you need to add `@nuxt-modules/compression` to your Nuxt config.
 
 ```javascript
 // nuxt.config.js
 
 {
   buildModules: [
-    ['@nuxt-modules/lazy-load']
+    ['@nuxt-modules/compression']
   ]
 }
 ```
 
-Then you can start using `@nuxt-modules/lazy-load` in your setup function!
-
-```ts
-<script setup lang="ts">
-const { init } = useLazyLoad();
-
-onMounted(() => {
-  init()
-})
-</script>
-```
-
-Lastly, let's add a `lazy` class and change `src` attribute to `data-src`
-
-```html
-<img class="lazy" data-src="https://path-to-image.jpg"/>
-```
+And that's it! Now, the gzip compression will compress your static assets. For more configuration options (like brotli compression, filter assets, etc) please, visit the official docs.
 
 ## Development
 
