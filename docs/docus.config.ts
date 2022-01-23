@@ -1,9 +1,9 @@
 export default {
-  title: '@nuxt-modules/lazy-load',
-  url: 'https://lazy-load-nm.netlify.app',
+  title: '@nuxt-modules/compression',
+  url: 'https://compression-nm.netlify.app',
   theme: {
     colors: {
-      primary: '#00BB6F',
+      primary: '#EC1C24',
       prism: {
         background: '#F4F4F5 dark:#1F2937'
       }
@@ -18,7 +18,7 @@ export default {
   },
   twitter: '@theandrewsky',
   github: {
-    repo: 'nuxt-modules/lazy-load',
+    repo: 'nuxt-modules/compression',
     branch: 'main',
     releases: true
   }

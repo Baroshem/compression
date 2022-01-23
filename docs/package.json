@@ -1,7 +1,7 @@
 {
-  "name": "@nuxt-modules/lazy-load-docs",
+  "name": "@nuxt-modules/compression-docs",
   "version": "1.0.0",
-  "description": "Docs for @nuxt-modules/lazy-load",
+  "description": "Docs for @nuxt-modules/compression",
   "author": "NuxtJS",
   "scripts": {
     "dev": "nuxt",
