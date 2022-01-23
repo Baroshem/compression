@@ -1,7 +1,7 @@
 import { defineNuxtModule } from '@nuxt/kit'
 import type { Nuxt } from '@nuxt/schema'
+import viteCompression from 'vite-plugin-compression'
 import type { CompressionOptions } from './types'
-import viteCompression from 'vite-plugin-compression';
 
 export default defineNuxtModule<CompressionOptions>({
   name: '@nuxt-modules/compression',

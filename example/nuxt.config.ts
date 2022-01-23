@@ -3,7 +3,7 @@ import { defineNuxtConfig } from 'nuxt3'
 export default defineNuxtConfig({
   buildModules: [
     ['../src/module', {
-      algorithm: 'brotliCompress',
+      algorithm: 'brotliCompress'
     }]
   ]
 })
